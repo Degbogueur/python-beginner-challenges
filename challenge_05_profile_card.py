@@ -1,0 +1,15 @@
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+height_meters = float(input("Enter your height in meters: "))
+fav_num = int(input("Enter your favourite number: "))
+
+height_cm = int(height_meters * 100)
+
+print("\n================================")
+print("\tYOUR PROFILE CARD")
+print("================================")
+print(f"Name:\t\t  {name}")
+print(f"Age:\t\t  {age} years")
+print(f"Height:\t\t  {height_meters}m ({height_cm}cm)")
+print(f"Favourite Number: {fav_num}")
+print("================================\n")
